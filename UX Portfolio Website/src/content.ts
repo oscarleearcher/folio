@@ -1,7 +1,7 @@
 // src/content.ts
 
 // import the image at the top
-import headshot from "./assets/headshot.JPG"
+import headshot from "./assets/headshot.jpg"
 
 const content = {
   site: {
