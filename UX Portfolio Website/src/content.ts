@@ -36,7 +36,7 @@ const content = {
     ],
     tools: ["Figma", "Adobe CC", "Miro", "Principle", "HTML/CSS"],
     headshot: {
-      src: headshot, // ✅ imported file
+      src: headshot, // imported file
       alt: "Portrait of Oscar Lee-Archer",
     },
   },
