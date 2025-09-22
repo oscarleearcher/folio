@@ -1,4 +1,8 @@
 // src/content.ts
+
+// import the image at the top
+import headshot from "./assets/headshot.JPG"
+
 const content = {
   site: {
     logoText: "OLA",
@@ -26,8 +30,7 @@ const content = {
     expertise: ["User Research", "Information Architecture", "Interaction Design", "Prototyping", "Usability Testing"],
     tools: ["Figma", "Adobe CC", "Miro", "Principle", "HTML/CSS"],
     headshot: {
-      src:
-        "https://images.unsplash.com/photo-1573497620166-aef748c8c792?auto=format&fit=crop&w=1080&q=80",
+      src: headshot, // use the imported file
       alt: "Portrait of Oscar Lee-Archer",
     },
   },
