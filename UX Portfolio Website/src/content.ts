@@ -1,7 +1,7 @@
 // src/content.ts
 
 // import the image at the top
-import headshot from "./assets/headshot.jpg"
+import headshot from "./assets/headshot.jpg";
 
 const content = {
   site: {
@@ -27,10 +27,16 @@ const content = {
       "I combine user research, strategic thinking, and systems design to ship accessible, resilient UI.",
       "Outside work: vintage furniture hunting, photography, and tinkering with AI tools in design.",
     ],
-    expertise: ["User Research", "Information Architecture", "Interaction Design", "Prototyping", "Usability Testing"],
+    expertise: [
+      "User Research",
+      "Information Architecture",
+      "Interaction Design",
+      "Prototyping",
+      "Usability Testing",
+    ],
     tools: ["Figma", "Adobe CC", "Miro", "Principle", "HTML/CSS"],
     headshot: {
-      src: headshot, // use the imported file
+      src: headshot, // ✅ imported file
       alt: "Portrait of Oscar Lee-Archer",
     },
   },
@@ -42,7 +48,8 @@ const content = {
       title: "Filter Redesign — Bunnings",
       description:
         "Simplified fulfilment & availability filters. Increased filter usage and ATC in early reads.",
-      imageUrl: "figma:asset/2de27d2121b9468a8642d69c2b978f167f4a2d16.png",
+      imageUrl:
+        "figma:asset/2de27d2121b9468a8642d69c2b978f167f4a2d16.png",
       tags: ["UX Design", "E-commerce", "User Research"],
     },
   ],
